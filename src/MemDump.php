@@ -1,13 +1,13 @@
 <?php
 
-namespace cron\Tasks;
+namespace Acast\CronService\Tasks;
 use Acast\ {
     Console, Config, Server,
     CronService\TaskInterface
 };
 /**
  * Class MemDump
- * @package cron\Tasks
+ * @package Acast\CronService\Tasks
  */
 class MemDump extends TaskInterface {
     public $time;
