@@ -1,0 +1,16 @@
+{
+  "name" : "acast/memcached-dump",
+  "description" : "Memcached persistence implemented with Acast\\CronService.",
+  "license" : "MIT",
+  "type" : "library",
+  "require" : {
+    "cismonx/acast" : "^1.2",
+    "acast/cron-service" : "^0.1",
+    "ext-zlib" : "*"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Acast\\CronService\\Tasks\\" : "src"
+    }
+  }
+}
